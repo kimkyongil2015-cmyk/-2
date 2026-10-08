@@ -36,13 +36,13 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Zone 1: Official Brand Logo matching footer logo below */}
+          {/* Zone 1: Official Brand Logo from User Design */}
           <button
             onClick={() => handleNavClick('home')}
             className="group flex items-center text-left focus:outline-none transition-transform hover:scale-[1.02] active:scale-[0.98]"
             aria-label="머슬랩 홈으로 이동"
           >
-            <MuscleLabLogo variant="horizontal" className="h-10 sm:h-11" />
+            <MuscleLabLogo className="h-11 sm:h-12" />
           </button>
 
           {/* Zone 2: 4-6 Clean text navigation links */}
